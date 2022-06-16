@@ -3,4 +3,4 @@ FROM sf_restaurant_health_violations
 WHERE violation_id IS NOT NULL
 AND business_name = 'Roxanne Cafe'
 GROUP BY year
-ORDER BY violation_count
+ORDER BY year
